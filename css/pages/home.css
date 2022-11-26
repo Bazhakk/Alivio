@@ -37,9 +37,96 @@ ul {
   font-weight: 400;
 }
 .container {
-  max-width: 1920px;
+  width: 100%;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.button_dark {
+  display: flex;
+  align-items: center;
+  padding: 13px 50px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  background: #01996D;
+  border: 1px solid #01996D;
+}
+.button_dark:hover {
+  transition: all 0.4s;
+  background-color: rgb(3, 44, 3);
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/Lato-Regular.eot") format("embedded-opentype"), url("../../fonts/Lato-Regular.svg") format("svg"), url("../../fonts/Lato-Regular.woff") format("woff"), url("../../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+.header {
+  width: 100%;
+  margin-top: 30px;
+}
+.header__container {
+  display: flex;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__sign {
+  margin-left: auto;
+}
+.header .logo {
+  max-height: 23px;
+}
+.header .logo svg {
+  max-height: 23px;
+}
+
+.mobile-menu {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .mobile-menu {
+    display: flex;
+  }
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 172px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.main-menu__link {
+  margin-left: 70px;
+  color: #292929;
+}
+@media screen and (max-width: 1024px) {
+  .main-menu {
+    display: none;
+  }
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+}
+.sign__link {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0);
 }
 
 /*# sourceMappingURL=home.css.map */

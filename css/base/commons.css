@@ -4,9 +4,28 @@
   font-weight: 400;
 }
 .container {
-  max-width: 1920px;
+  width: 100%;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.button_dark {
+  display: flex;
+  align-items: center;
+  padding: 13px 50px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  background: #01996D;
+  border: 1px solid #01996D;
+}
+.button_dark:hover {
+  transition: all 0.4s;
+  background-color: rgb(3, 44, 3);
 }
 
 /*# sourceMappingURL=commons.css.map */
