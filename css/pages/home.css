@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/Lato-Regular.eot") format("embedded-opentype"), url("../../fonts/Lato-Regular.svg") format("svg"), url("../../fonts/Lato-Regular.woff") format("woff"), url("../../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/Lato-Regular.eot") format("embedded-opentype"), url("../../fonts/Lato-Regular.svg") format("svg"), url("../../fonts/Lato-Regular.woff") format("woff"), url("../../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+main,
+section {
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/Lato-Regular.eot") format("embedded-opentype"), url("../../fonts/Lato-Regular.svg") format("svg"), url("../../fonts/Lato-Regular.woff") format("woff"), url("../../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/*# sourceMappingURL=home.css.map */

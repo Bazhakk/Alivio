@@ -3,6 +3,7 @@
 
 .header {
     width: 100%;
+    padding: 10px 0;
 
     &__container {
         display: flex;
@@ -31,3 +32,29 @@
         }
     }
 }
+
+.mobile-menu {
+    display: none;
+  
+    @media screen and (max-width: 1024px) {
+      display: flex;
+    }
+  }
+
+  .main-menu {
+    display: flex;
+    align-items: center;
+    font-family: 'Lato';
+    font-weight: 400;//500
+    font-size: 20px;
+    line-height: 24px;
+  
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
+  
+    &__link {
+      margin-left: 72px;
+      color: $header-color;
+    }
+  }

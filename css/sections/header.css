@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/Lato-Regular.eot") format("embedded-opentype"), url("../../fonts/Lato-Regular.svg") format("svg"), url("../../fonts/Lato-Regular.woff") format("woff"), url("../../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+.header {
+  width: 100%;
+  padding: 10px 0;
+}
+.header__container {
+  display: flex;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+.header__sign {
+  margin-left: auto;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  max-height: 23px;
+}
+.header .logo svg {
+  max-height: 23px;
+}
+
+.mobile-menu {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .mobile-menu {
+    display: flex;
+  }
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+@media screen and (max-width: 1024px) {
+  .main-menu {
+    display: none;
+  }
+}
+.main-menu__link {
+  margin-left: 72px;
+  color: #292929;
+}
+
+/*# sourceMappingURL=header.css.map */
