@@ -29,7 +29,8 @@
 
         &:hover {
           transition: all .4s;
-          background-color: rgb(3, 44, 3);
+          background-color: $white-color;
+          color: $black-color;
         }
       }
     }

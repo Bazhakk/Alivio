@@ -25,7 +25,8 @@
 }
 .button_dark:hover {
   transition: all 0.4s;
-  background-color: rgb(3, 44, 3);
+  background-color: #fff;
+  color: #000000;
 }
 
 /*# sourceMappingURL=commons.css.map */

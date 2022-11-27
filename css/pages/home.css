@@ -58,7 +58,8 @@ ul {
 }
 .button_dark:hover {
   transition: all 0.4s;
-  background-color: rgb(3, 44, 3);
+  background-color: #fff;
+  color: #000000;
 }
 
 @font-face {
@@ -75,7 +76,6 @@ ul {
 }
 .header__menu {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .header__sign {
@@ -118,7 +118,9 @@ ul {
 }
 
 .sign {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .sign__link {
@@ -126,7 +128,11 @@ ul {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color: rgba(0, 0, 0, 0);
+  color: #000000;
+}
+.sign__link:hover {
+  transition: all 0.4s;
+  color: #01996D;
 }
 
 /*# sourceMappingURL=home.css.map */
