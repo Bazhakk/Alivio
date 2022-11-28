@@ -5,8 +5,9 @@
     max-width: 1390px;
     padding: 170px 0 40px;
 
-    // &__container {
-    // }
+    &__container {
+        position: relative;
+    }
 
     &__text {
         font-family: 'Lato';
@@ -35,5 +36,50 @@
         font-size: 20px;
         line-height: 150%;
         color: $text-color;
+    }
+
+
+    .phane {
+        display: flex;
+        justify-content: space-between;
+
+        &__item {
+            max-width: 390px;
+            box-sizing: border-box;
+        }
+
+        &__section {
+            max-width: 270px;
+        }
+
+        &__namber {
+            margin: 0 0 10px 0;
+            font-family: 'Georgia';
+            font-weight: 400;
+            font-size: 150px;
+            line-height: 150%;
+            text-align: center;
+            color: rgba(1, 153, 109, 0.2);
+        }
+
+        &__title {
+            margin: 10px 0 20px 0 ;
+            font-family: 'Lato';
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            color: $black-color;
+        }
+
+
+        &__text {
+            padding-bottom: 60px;
+            font-family: 'Lato';
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            color: $text-color;
+        }
+
     }
 }

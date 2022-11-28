@@ -7,6 +7,9 @@
   max-width: 1390px;
   padding: 170px 0 40px;
 }
+.stages__container {
+  position: relative;
+}
 .stages__text {
   font-family: "Lato";
   font-weight: 600;
@@ -26,6 +29,42 @@
   color: #01996D;
 }
 .stages__subtitle {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+}
+.stages .phane {
+  display: flex;
+  justify-content: space-between;
+}
+.stages .phane__item {
+  max-width: 390px;
+  box-sizing: border-box;
+}
+.stages .phane__section {
+  max-width: 270px;
+}
+.stages .phane__namber {
+  margin: 0 0 10px 0;
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 150%;
+  text-align: center;
+  color: rgba(1, 153, 109, 0.2);
+}
+.stages .phane__title {
+  margin: 10px 0 20px 0;
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+}
+.stages .phane__text {
+  padding-bottom: 60px;
   font-family: "Lato";
   font-weight: 500;
   font-size: 20px;
