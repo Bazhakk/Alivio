@@ -1,0 +1,39 @@
+@import "../base/fonts";
+@import "../base/variables";
+
+.stages {
+    max-width: 1390px;
+    padding: 170px 0 40px;
+
+    // &__container {
+    // }
+
+    &__text {
+        font-family: 'Lato';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 157%;
+        color: $text-color;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-family: 'Georgia';
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 157%;
+        color: $green-color;
+    }
+
+    &__subtitle {
+        font-family: 'Lato';
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: $text-color;
+    }
+}
