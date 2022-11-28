@@ -44,7 +44,7 @@ ul {
   box-sizing: border-box;
 }
 
-.button_dark {
+.button_first {
   display: flex;
   align-items: center;
   padding: 13px 50px;
@@ -56,7 +56,26 @@ ul {
   background: #01996D;
   border: 1px solid #01996D;
 }
-.button_dark:hover {
+.button_first:hover {
+  transition: all 0.4s;
+  background-color: #fff;
+  color: #000000;
+}
+.button_second {
+  margin-top: 47px;
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+  background: #01996D;
+  border: 1px solid #01996D;
+  border-radius: 4px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #fff;
+}
+.button_second:hover {
   transition: all 0.4s;
   background-color: #fff;
   color: #000000;
@@ -69,7 +88,7 @@ ul {
 }
 .header {
   width: 100%;
-  margin-top: 30px;
+  padding: 30px 0;
 }
 .header__container {
   display: flex;
@@ -133,6 +152,38 @@ ul {
 .sign__link:hover {
   transition: all 0.4s;
   color: #01996D;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/Lato-Regular.eot") format("embedded-opentype"), url("../../fonts/Lato-Regular.svg") format("svg"), url("../../fonts/Lato-Regular.woff") format("woff"), url("../../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+.hero {
+  background-image: url("../../img/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero__box {
+  max-width: 440px;
+  padding-top: 175px;
+  padding-bottom: 336px;
+}
+.hero__title {
+  margin-bottom: 30px;
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 74px;
+  color: #01996D;
+}
+.hero__subtitle {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #484848;
 }
 
 /*# sourceMappingURL=home.css.map */

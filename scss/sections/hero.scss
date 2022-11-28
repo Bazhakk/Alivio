@@ -1,0 +1,32 @@
+@import "../base/fonts";
+@import "../base/variables";
+
+.hero {
+    background-image: url("../../img/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &__box {
+        max-width: 440px;
+        padding-top: 175px;
+        padding-bottom: 336px;
+    }
+
+    &__title {
+        margin-bottom: 30px;
+        font-family: 'Georgia';
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 74px;
+        color: $green-color;
+    }
+
+    &__subtitle {
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 31px;
+        color: $grey-color;
+    }
+}
