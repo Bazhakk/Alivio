@@ -3,8 +3,7 @@
 
   .container {
     width: 100%;
-    // max-width: 1920px;
-    max-width: 1170px;//пример
+    max-width: 1170px;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
@@ -53,6 +52,28 @@
           transition: all .4s;
           background-color: $white-color;
           color: $black-color;
+        }
+      }
+    }
+
+    //ANIMATION
+    .link-anima {
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 0;
+        height: 2px;
+        background-color: $green-color;
+        transition: width .4s;
+      }
+
+      &:hover {
+        &::before {
+          width: 100%;
         }
       }
     }

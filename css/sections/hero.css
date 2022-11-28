@@ -9,7 +9,7 @@
   background-size: cover;
   background-position: center;
 }
-.hero__box {
+.hero .hero__box {
   max-width: 440px;
   padding-top: 175px;
   padding-bottom: 336px;

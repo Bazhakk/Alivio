@@ -9,9 +9,12 @@
 }
 .header__container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header__menu {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .header__sign {
@@ -22,6 +25,10 @@
 }
 .header .logo svg {
   max-height: 23px;
+}
+.header .logo:hover {
+  transition: 0.8s;
+  transform: rotateX(360deg);
 }
 
 .mobile-menu {
