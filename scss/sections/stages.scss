@@ -9,17 +9,28 @@
         position: relative;
     }
 
-    &__text {
-        font-family: 'Lato';
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 157%;
-        color: $text-color;
-    }
-
     &__box {
         display: flex;
         justify-content: space-between;
+    }
+
+    &__text {
+        padding-bottom: 35px;
+        // font-family: 'Lato';
+        font-weight: 600;
+        // font-size: 24px;
+        // line-height: 157%;
+        color: $text-color;
+    }
+
+    &__left {
+        max-width: 584px;
+        margin-bottom: 52px;
+    }
+
+    &__right {
+        max-width: 671px;
+        margin-bottom: 23px;
     }
 
     &__title {
