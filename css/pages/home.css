@@ -80,6 +80,23 @@ ul {
   background-color: #fff;
   color: #000000;
 }
+.button_third {
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+  border-radius: 4px;
+  background: #01996D;
+  border: 1px solid #01996D;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+.button_third:hover {
+  transition: all 0.4s;
+  background-color: #fff;
+  color: #000000;
+}
 
 .link-anima {
   position: relative;
@@ -304,6 +321,12 @@ ul {
 }
 .stages .phane__img_2, .stages .phane__img_3 {
   padding-top: 50px;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/Lato-Regular.eot") format("embedded-opentype"), url("../../fonts/Lato-Regular.svg") format("svg"), url("../../fonts/Lato-Regular.woff") format("woff"), url("../../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=home.css.map */
