@@ -259,7 +259,15 @@ ul {
 }
 .stages .phane__item {
   max-width: 390px;
-  box-sizing: border-box;
+}
+.stages .phane__item_1 {
+  margin-top: 0;
+}
+.stages .phane__item_2 {
+  margin-top: 200px;
+}
+.stages .phane__item_3 {
+  margin-top: 23px;
 }
 .stages .phane__section {
   max-width: 270px;
@@ -275,6 +283,7 @@ ul {
 }
 .stages .phane__title {
   margin: 10px 0 20px 0;
+  text-align: center;
   font-family: "Lato";
   font-weight: 500;
   font-size: 20px;
@@ -282,12 +291,19 @@ ul {
   color: #000000;
 }
 .stages .phane__text {
+  max-width: 383px;
   padding-bottom: 60px;
   font-family: "Lato";
   font-weight: 500;
   font-size: 20px;
   line-height: 150%;
   color: #424242;
+}
+.stages .phane__img_1 {
+  padding-top: 60px;
+}
+.stages .phane__img_2, .stages .phane__img_3 {
+  padding-top: 50px;
 }
 
 /*# sourceMappingURL=home.css.map */

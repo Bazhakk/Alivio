@@ -56,7 +56,18 @@
 
         &__item {
             max-width: 390px;
-            box-sizing: border-box;
+
+            &_1 {
+                margin-top: 0;
+            }
+
+            &_2 {
+                margin-top: 200px;
+            }
+
+            &_3 {
+                margin-top: 23px;
+            }
         }
 
         &__section {
@@ -64,6 +75,7 @@
         }
 
         &__namber {
+            // position: relative;
             margin: 0 0 10px 0;
             font-family: 'Georgia';
             font-weight: 400;
@@ -74,7 +86,9 @@
         }
 
         &__title {
+            // position: absolute;
             margin: 10px 0 20px 0 ;
+            text-align: center;
             font-family: 'Lato';
             font-weight: 500;
             font-size: 20px;
@@ -84,12 +98,25 @@
 
 
         &__text {
+            max-width: 383px;
             padding-bottom: 60px;
             font-family: 'Lato';
             font-weight: 500;
             font-size: 20px;
             line-height: 150%;
             color: $text-color;
+        }
+
+        &__img {
+            
+            &_1 {
+                padding-top: 60px;
+            }
+
+            &_2,
+            &_3 {
+                padding-top: 50px;
+            }
         }
 
     }
