@@ -333,12 +333,14 @@ ul {
 .story__box {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 .story__left {
   max-width: 512px;
-  padding: 200px 0 345px;
+  padding: 210px 0 345px;
 }
 .story__title {
+  padding-bottom: 60px;
   font-family: "Georgia";
   font-weight: 700;
   font-size: 50px;
@@ -346,6 +348,7 @@ ul {
   color: #fff;
 }
 .story__text {
+  max-width: 485px;
   font-family: "Lato";
   font-weight: 600;
   font-size: 25px;
@@ -356,12 +359,10 @@ ul {
   padding: 230px 0 180px;
 }
 .story__img {
-  max-width: 825px;
   position: relative;
 }
 .story__icon {
   position: absolute;
-  margin: 0 auto;
 }
 
 /*# sourceMappingURL=home.css.map */
