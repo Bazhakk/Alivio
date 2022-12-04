@@ -2,43 +2,40 @@
 @import "../base/variables";
 
 .stages {
-
-    &__container {
-        margin: 170px auto 40px;
-    }
+    margin: 170px auto 40px;
 
     &__box {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 52px;
         gap: 70px;
     }
 
-    // &__text {
-    //     padding-bottom: 35px;
-    //     font-family: 'Lato';
-    //     font-weight: 600;
-    //     font-size: 24px;
-    //     line-height: 157%;
-    //     color: $text-color;
-    // }
+    &__left {
+        width: 60%;
+        max-width: 585px;
+    }
 
-    // &__left {
-    //     max-width: 585px;
-    //     padding-top: 0;
-    //     // margin-bottom: 52px;
-    // }
-
-    // &__right {
-    //     max-width: 670x;
-    //     // margin-bottom: 23px;
-    // }
+    &__text {
+        font-family: 'Lato';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 157%;
+        color: $text-color;
+    }
 
     &__title {
+        max-width: 585px;
         font-family: 'Georgia';
         font-weight: 700;
         font-size: 50px;
         line-height: 157%;
         color: $green-color;
+    }
+
+    &__right {
+        width: 40%;
+        max-width: 670x;
     }
 
     &__subtitle {
@@ -54,8 +51,8 @@
         display: flex;
         justify-content: space-between;
         gap: 50px;
-        padding: 0;
-        margin: 0;
+        // padding: 0;
+        // margin: 0;
 
         &__item {
             max-width: 390px;
@@ -107,18 +104,5 @@
             line-height: 150%;
             color: $text-color;
         }
-
-        // &__img {
-            
-        //     &_1 {
-        //         padding-top: 60px;
-        //     }
-
-        //     &_2,
-        //     &_3 {
-        //         padding-top: 50px;
-        //     }
-        // }
-
     }
 }

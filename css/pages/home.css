@@ -234,20 +234,37 @@ ul {
   src: url("../../fonts/Lato-Regular.eot") format("embedded-opentype"), url("../../fonts/Lato-Regular.svg") format("svg"), url("../../fonts/Lato-Regular.woff") format("woff"), url("../../fonts/Lato-Regular.woff2") format("woff2");
   font-weight: 400;
 }
-.stages__container {
+.stages {
   margin: 170px auto 40px;
 }
 .stages__box {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 52px;
   gap: 70px;
 }
+.stages__left {
+  width: 60%;
+  max-width: 585px;
+}
+.stages__text {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+  color: #424242;
+}
 .stages__title {
+  max-width: 585px;
   font-family: "Georgia";
   font-weight: 700;
   font-size: 50px;
   line-height: 157%;
   color: #01996D;
+}
+.stages__right {
+  width: 40%;
+  max-width: 670x;
 }
 .stages__subtitle {
   font-family: "Lato";
@@ -260,8 +277,6 @@ ul {
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  padding: 0;
-  margin: 0;
 }
 .stages .phane__item {
   max-width: 390px;
