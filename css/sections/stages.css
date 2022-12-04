@@ -3,29 +3,13 @@
   src: url("../../fonts/Lato-Regular.eot") format("embedded-opentype"), url("../../fonts/Lato-Regular.svg") format("svg"), url("../../fonts/Lato-Regular.woff") format("woff"), url("../../fonts/Lato-Regular.woff2") format("woff2");
   font-weight: 400;
 }
-.stages {
-  max-width: 1390px;
-  padding: 170px 0 40px;
-}
 .stages__container {
-  position: relative;
+  margin: 170px auto 40px;
 }
 .stages__box {
   display: flex;
   justify-content: space-between;
-}
-.stages__text {
-  padding-bottom: 35px;
-  font-weight: 600;
-  color: #424242;
-}
-.stages__left {
-  max-width: 584px;
-  margin-bottom: 52px;
-}
-.stages__right {
-  max-width: 671px;
-  margin-bottom: 23px;
+  gap: 70px;
 }
 .stages__title {
   font-family: "Georgia";
@@ -44,6 +28,9 @@
 .stages .phane {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
+  padding: 0;
+  margin: 0;
 }
 .stages .phane__item {
   max-width: 390px;
@@ -70,7 +57,7 @@
   color: rgba(1, 153, 109, 0.2);
 }
 .stages .phane__title {
-  margin: 10px 0 20px 0;
+  margin: -85px 0 40px 0;
   text-align: center;
   font-family: "Lato";
   font-weight: 500;
@@ -86,12 +73,6 @@
   font-size: 20px;
   line-height: 150%;
   color: #424242;
-}
-.stages .phane__img_1 {
-  padding-top: 60px;
-}
-.stages .phane__img_2, .stages .phane__img_3 {
-  padding-top: 50px;
 }
 
 /*# sourceMappingURL=stages.css.map */

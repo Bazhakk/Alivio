@@ -158,10 +158,10 @@ ul {
 }
 
 .main-menu {
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 172px;
   font-family: "Lato";
   font-weight: 400;
   font-size: 20px;
@@ -179,6 +179,7 @@ ul {
 
 .sign {
   width: 100%;
+  max-width: 280px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -206,7 +207,7 @@ ul {
   background-size: cover;
   background-position: center;
 }
-.hero .hero__box {
+.hero__box {
   max-width: 440px;
   padding-top: 175px;
   padding-bottom: 336px;
@@ -232,29 +233,13 @@ ul {
   src: url("../../fonts/Lato-Regular.eot") format("embedded-opentype"), url("../../fonts/Lato-Regular.svg") format("svg"), url("../../fonts/Lato-Regular.woff") format("woff"), url("../../fonts/Lato-Regular.woff2") format("woff2");
   font-weight: 400;
 }
-.stages {
-  max-width: 1390px;
-  padding: 170px 0 40px;
-}
 .stages__container {
-  position: relative;
+  margin: 170px auto 40px;
 }
 .stages__box {
   display: flex;
   justify-content: space-between;
-}
-.stages__text {
-  padding-bottom: 35px;
-  font-weight: 600;
-  color: #424242;
-}
-.stages__left {
-  max-width: 584px;
-  margin-bottom: 52px;
-}
-.stages__right {
-  max-width: 671px;
-  margin-bottom: 23px;
+  gap: 70px;
 }
 .stages__title {
   font-family: "Georgia";
@@ -273,6 +258,9 @@ ul {
 .stages .phane {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
+  padding: 0;
+  margin: 0;
 }
 .stages .phane__item {
   max-width: 390px;
@@ -299,7 +287,7 @@ ul {
   color: rgba(1, 153, 109, 0.2);
 }
 .stages .phane__title {
-  margin: 10px 0 20px 0;
+  margin: -85px 0 40px 0;
   text-align: center;
   font-family: "Lato";
   font-weight: 500;
@@ -315,12 +303,6 @@ ul {
   font-size: 20px;
   line-height: 150%;
   color: #424242;
-}
-.stages .phane__img_1 {
-  padding-top: 60px;
-}
-.stages .phane__img_2, .stages .phane__img_3 {
-  padding-top: 50px;
 }
 
 @font-face {
