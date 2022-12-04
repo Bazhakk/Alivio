@@ -58,6 +58,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
+  color: #fff;
 }
 .button_third:hover {
   transition: all 0.4s;

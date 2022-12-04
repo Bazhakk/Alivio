@@ -67,6 +67,7 @@
         font-weight: 400;
         font-size: 20px;
         line-height: 25px;
+        color: $white-color;
 
         &:hover {
           transition: all .4s;
@@ -74,6 +75,7 @@
           color: $black-color;
         }
       }
+      
     }
 
     //ANIMATION

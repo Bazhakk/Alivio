@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../scss/base/fonts.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EAIA","file":"story.css"}
+{"version":3,"sourceRoot":"","sources":["../../scss/base/fonts.scss","../../scss/sections/story.scss","../../scss/base/variables.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EAIA;;ACLJ;EACI;EACA,kBCKe;;ADHf;EACI;EACA;;AAGJ;EACI;EACA;;AAGJ;EAEI;EACA;EACA;EACA;EACA,OCpBM;;ADuBV;EACI;EACA;EACA;EACA;EACA,OC5BM;;ADgCV;EACI;;AAGJ;EACI;EACA;;AAGJ;EAEI;EACA","file":"story.css"}

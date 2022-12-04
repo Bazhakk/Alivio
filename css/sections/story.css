@@ -3,5 +3,42 @@
   src: url("../../fonts/Lato-Regular.eot") format("embedded-opentype"), url("../../fonts/Lato-Regular.svg") format("svg"), url("../../fonts/Lato-Regular.woff") format("woff"), url("../../fonts/Lato-Regular.woff2") format("woff2");
   font-weight: 400;
 }
+.story {
+  margin-bottom: 120px;
+  background-color: #245852;
+}
+.story__box {
+  display: flex;
+  justify-content: space-between;
+}
+.story__left {
+  max-width: 512px;
+  padding: 200px 0 345px;
+}
+.story__title {
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #fff;
+}
+.story__text {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+  color: #fff;
+}
+.story__right {
+  padding: 230px 0 180px;
+}
+.story__img {
+  max-width: 825px;
+  position: relative;
+}
+.story__icon {
+  position: absolute;
+  margin: 0 auto;
+}
 
 /*# sourceMappingURL=story.css.map */
