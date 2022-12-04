@@ -37,14 +37,16 @@
 
     &__right {
         padding: 230px 0 180px;
+        position: relative;
     }
 
     &__img {
-        // max-width: 825px;
-        position: relative;
+        max-width: 825px;
     }
 
     &__icon {
         position: absolute;
+        top: 216px;
+        left: 378px;
     }
 }
