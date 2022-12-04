@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/Lato-Regular.eot") format("embedded-opentype"), url("../../fonts/Lato-Regular.svg") format("svg"), url("../../fonts/Lato-Regular.woff") format("woff"), url("../../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+.product {
+  padding: 120px 0 170px;
+}
+.product__container {
+  display: flex;
+  position: relative;
+}
+.product__col {
+  width: 50%;
+}
+.product__col_left {
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+.product__col_right {
+  padding-left: 80px;
+}
+.product__img {
+  border-radius: 18px;
+}
+.product__text {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+  color: #424242;
+}
+.product__title {
+  max-width: 585px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996D;
+}
+.product__subtitle {
+  max-width: 530px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #484848;
+}
+.product .card {
+  width: 296px;
+  box-sizing: border-box;
+  padding: 25px 55px;
+  position: absolute;
+  top: 260px;
+  left: 0;
+  border-radius: 4px;
+  background-color: #fff;
+  filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+}
+.product .card__text {
+  width: fit-content;
+  margin: 0 auto 13px auto;
+  padding: 0 3px 7px 3px;
+  border-bottom: 0.7px solid #000000;
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 14.49px;
+  line-height: 157%;
+  text-align: center;
+  color: #000000;
+}
+.product .card__img {
+  display: block;
+  max-width: 57px;
+  margin: 0 auto 13px auto;
+  border-radius: 50%;
+}
+.product .card__name {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 157%;
+  text-align: center;
+  color: #000000;
+}
+.product .card__title {
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 157%;
+  color: #000000;
+}
+.product .card__list {
+  padding-left: 0;
+  list-style: none;
+}
+.product .card__list_item {
+  margin-bottom: 15px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 157%;
+}
+.product .card__list_item::before {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+/*# sourceMappingURL=product.css.map */
