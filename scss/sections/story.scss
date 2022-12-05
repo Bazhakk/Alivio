@@ -5,15 +5,29 @@
     margin-bottom: 120px;
     background-color: $background-color;
 
+    @media screen and (max-width: 1024px) {
+        margin: 0 auto 60px;
+    }
+
     &__box {
         display: flex;
         justify-content: space-between;
         gap: 30px;
+
+        @media screen and (max-width: 1024px) {
+            flex-direction: column;
+        }
     }
 
     &__left {
         max-width: 512px;
         padding: 210px 0 345px;
+
+        @media screen and (max-width: 1024px) {
+           max-width: 260px;
+           margin: 0 auto;
+           padding: 100px 0 170px;
+        }
     }
 
     &__title {
@@ -23,6 +37,11 @@
         font-size: 50px;
         line-height: 157%;
         color: $white-color;
+
+        @media screen and (max-width: 1024px) {
+            padding-bottom: 30px;
+            font-size: 35px;
+        }
     }
 
     &__text {
@@ -37,17 +56,21 @@
 
 
     &__right {
-        padding: 230px 0 180px;
         position: relative;
+        padding: 230px 0 180px;
+
+        @media screen and (max-width: 1024px) {
+            padding: 90px 0 90px;
+        }
     }
 
     &__img {
         max-width: 825px;
     }
 
-    &__icon {
-        position: absolute;
-        top: 216px;
-        left: 378px;
-    }
+    // &__icon {
+    //     position: absolute;
+    //     top: 216px;
+    //     left: 378px;
+    // }
 }

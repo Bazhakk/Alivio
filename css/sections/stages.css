@@ -6,15 +6,33 @@
 .stages {
   margin: 170px auto 40px;
 }
+@media screen and (max-width: 1024px) {
+  .stages {
+    margin: 85px auto 20px;
+  }
+}
 .stages__box {
   display: flex;
   align-items: center;
   padding-bottom: 52px;
   gap: 70px;
 }
+@media screen and (max-width: 1024px) {
+  .stages__box {
+    margin: 0 auto;
+    padding-bottom: 26px;
+    flex-direction: column;
+  }
+}
 .stages__left {
   width: 60%;
   max-width: 585px;
+}
+@media screen and (max-width: 1024px) {
+  .stages__left {
+    max-width: 290px;
+    margin: 0 auto;
+  }
 }
 .stages__text {
   font-family: "Lato";
@@ -24,7 +42,6 @@
   color: #424242;
 }
 .stages__title {
-  max-width: 585px;
   font-family: "Georgia";
   font-weight: 700;
   font-size: 50px;
@@ -34,6 +51,12 @@
 .stages__right {
   width: 40%;
   max-width: 670x;
+}
+@media screen and (max-width: 1024px) {
+  .stages__right {
+    max-width: 335px;
+    margin: 0 auto;
+  }
 }
 .stages__subtitle {
   font-family: "Lato";
@@ -47,8 +70,19 @@
   justify-content: space-between;
   gap: 50px;
 }
+@media screen and (max-width: 1024px) {
+  .stages .phane {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}
 .stages .phane__item {
   max-width: 390px;
+}
+@media screen and (max-width: 1024px) {
+  .stages .phane__item {
+    max-width: 200px;
+  }
 }
 .stages .phane__item_1 {
   margin-top: 0;
@@ -56,11 +90,26 @@
 .stages .phane__item_2 {
   margin-top: 200px;
 }
+@media screen and (max-width: 1024px) {
+  .stages .phane__item_2 {
+    margin-top: 100px;
+  }
+}
 .stages .phane__item_3 {
   margin-top: 23px;
 }
+@media screen and (max-width: 1024px) {
+  .stages .phane__item_3 {
+    margin-top: 12px;
+  }
+}
 .stages .phane__section {
   max-width: 270px;
+}
+@media screen and (max-width: 1024px) {
+  .stages .phane__section {
+    max-width: 135px;
+  }
 }
 .stages .phane__namber {
   margin: 0 0 10px 0;

@@ -46,6 +46,13 @@
   line-height: 25px;
   color: #fff;
 }
+@media screen and (max-width: 264px) {
+  .button_second {
+    padding: 6px 25px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
 .button_second:hover {
   transition: all 0.4s;
   background-color: #fff;
@@ -62,6 +69,13 @@
   line-height: 25px;
   color: #fff;
 }
+@media screen and (max-width: 280px) {
+  .button_third {
+    padding: 10px 25px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
 .button_third:hover {
   transition: all 0.4s;
   background-color: #fff;
@@ -77,6 +91,13 @@
   font-size: 20px;
   line-height: 25px;
   color: #fff;
+}
+@media screen and (max-width: 500px) {
+  .button_fourth {
+    padding: 10px 25px;
+    font-size: 10px;
+    line-height: 15px;
+  }
 }
 .button_fourth:hover {
   transition: all 0.4s;

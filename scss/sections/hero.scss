@@ -7,16 +7,14 @@
     background-size: cover;
     background-position: center;
 
-    @media screen and (max-width: 1024px) {
-        margin: 0 auto;
-        flex-direction: column;
-        background-size: contain;
-      }
-
     &__box {
         max-width: 440px;
         padding-top: 175px;
         padding-bottom: 336px;
+
+        @media screen and (max-width: 1024px) {
+            margin: 0 auto;
+        }
     }
 
     &__title {

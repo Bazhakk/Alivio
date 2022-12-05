@@ -4,9 +4,18 @@
 .product {
     padding: 120px 0 170px;
 
+    @media screen and (max-width: 1024px) {
+       padding: 60px 0 75px;
+    }
+
     &__container {
         display: flex;
         position: relative;
+
+        @media screen and (max-width: 1024px) {
+            margin: 0 auto;
+            flex-direction: column;
+        }
     }
 
     &__col {
@@ -15,10 +24,18 @@
         &_left {
             padding-left: 60px;
             box-sizing: border-box;
+
+            // @media screen and (max-width: 1024px) {
+            //     padding-left: 30px;
+            // }
         }
 
         &_right {
             padding-left: 80px;
+
+            // @media screen and (max-width: 1024px) {
+            //     padding-left: 40px;
+            // }
         }
     }
 
@@ -45,6 +62,10 @@
         font-size: 50px;
         line-height: 157%;
         color: $green-color;
+
+        @media screen and (max-width: 1024px) {
+            max-width: 290px;
+        }
     }
 
     &__subtitle {
@@ -55,6 +76,10 @@
         font-size: 20px;
         line-height: 31px;
         color: $grey-color;
+
+        @media screen and (max-width: 1024px) {
+            max-width: 290px;
+        }
     }
 
     .card {
@@ -68,6 +93,10 @@
         background-color: $white-color;
         filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
     
+        @media screen and (max-width: 1024px) {
+            margin: 0 auto;
+            left: 30px;
+        }
         &__text {
             width: fit-content;
             margin: 0 auto 13px auto;

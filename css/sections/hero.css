@@ -9,17 +9,15 @@
   background-size: cover;
   background-position: center;
 }
-@media screen and (max-width: 1024px) {
-  .hero {
-    margin: 0 auto;
-    flex-direction: column;
-    background-size: contain;
-  }
-}
 .hero__box {
   max-width: 440px;
   padding-top: 175px;
   padding-bottom: 336px;
+}
+@media screen and (max-width: 1024px) {
+  .hero__box {
+    margin: 0 auto;
+  }
 }
 .hero__title {
   margin-bottom: 30px;

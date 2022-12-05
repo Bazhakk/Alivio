@@ -1,6 +1,7 @@
 @import "variables";
 @import "fonts";
 
+
   .container {
     width: 100%;
     max-width: 1170px;
@@ -28,7 +29,7 @@
           margin-right: 10px;
           padding: 6px 25px;
           font-size: 10px;
-        line-height: 15px;
+          line-height: 15px;
         }
 
         &:hover {
@@ -51,6 +52,12 @@
         line-height: 25px;
         color: $white-color;
 
+        @media screen and (max-width: 264px) {
+          padding: 6px 25px;
+          font-size: 10px;
+          line-height: 15px;
+        }
+
         &:hover {
           transition: all .4s;
           background-color: $white-color;
@@ -70,6 +77,12 @@
         line-height: 25px;
         color: $white-color;
 
+        @media screen and (max-width: 280px) {
+          padding: 10px 25px;
+          font-size: 10px;
+          line-height: 15px;
+        }
+
         &:hover {
           transition: all .4s;
           background-color: $white-color;
@@ -88,6 +101,12 @@
         font-size: 20px;
         line-height: 25px;
         color: $white-color;
+
+        @media screen and (max-width: 500px) {
+          padding: 10px 25px;
+          font-size: 10px;
+          line-height: 15px;
+        }
 
         &:hover {
           transition: all .4s;
