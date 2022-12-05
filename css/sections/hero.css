@@ -9,6 +9,13 @@
   background-size: cover;
   background-position: center;
 }
+@media screen and (max-width: 1024px) {
+  .hero {
+    margin: 0 auto;
+    flex-direction: column;
+    background-size: contain;
+  }
+}
 .hero__box {
   max-width: 440px;
   padding-top: 175px;

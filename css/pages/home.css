@@ -54,6 +54,14 @@ ul {
   background: #01996D;
   border: 1px solid #01996D;
 }
+@media screen and (max-width: 425px) {
+  .button_first {
+    margin-right: 10px;
+    padding: 6px 25px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
 .button_first:hover {
   transition: all 0.4s;
   background-color: #fff;
@@ -140,6 +148,11 @@ ul {
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 1024px) {
+  .header__container {
+    margin: 0 auto;
+  }
+}
 .header__menu {
   display: flex;
   justify-content: space-between;
@@ -158,14 +171,28 @@ ul {
   transition: 0.8s;
   transform: rotateX(360deg);
 }
+@media screen and (max-width: 1024px) {
+  .header .logo {
+    margin-right: 10px;
+  }
+}
 
 .mobile-menu {
   display: none;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 20;
+  right: 0;
+  left: 0;
+  font-size: 24px;
+  line-height: 28px;
+  background-color: #fff;
 }
-@media screen and (max-width: 1024px) {
-  .mobile-menu {
-    display: flex;
-  }
+.mobile-menu__menu {
+  margin: 0 auto;
+  margin: 20px;
+  color: #000000;
 }
 
 .main-menu {
@@ -203,6 +230,29 @@ ul {
   transition: all 0.4s;
   color: #01996D;
 }
+@media screen and (max-width: 1024px) {
+  .sign__link {
+    margin-right: 10px;
+  }
+}
+
+.burger {
+  display: none;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  background-image: url("../../img/burger.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.burger-active {
+  background-image: url("../../img/close.svg");
+}
+@media (max-width: 1024px) {
+  .burger {
+    display: block;
+  }
+}
 
 @font-face {
   font-family: "Lato";
@@ -214,6 +264,13 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+@media screen and (max-width: 1024px) {
+  .hero {
+    margin: 0 auto;
+    flex-direction: column;
+    background-size: contain;
+  }
 }
 .hero__box {
   max-width: 440px;

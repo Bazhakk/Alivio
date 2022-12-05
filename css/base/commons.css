@@ -21,6 +21,14 @@
   background: #01996D;
   border: 1px solid #01996D;
 }
+@media screen and (max-width: 425px) {
+  .button_first {
+    margin-right: 10px;
+    padding: 6px 25px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
 .button_first:hover {
   transition: all 0.4s;
   background-color: #fff;
