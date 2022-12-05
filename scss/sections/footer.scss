@@ -1,2 +1,40 @@
 @import "../base/fonts";
 @import "../base/variables";
+
+.footer {
+    padding-top: 95px;
+    padding-bottom: 145px;
+    background: $background-color;
+
+    .logo {
+        max-width: 108px;
+
+        svg {
+          max-width: 108px;
+        }
+
+        &:hover {
+            transition: .8s;
+            transform: rotateX(360deg);
+          }
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+
+        &__link {
+            font-family: 'Lato';
+            margin-top: 60px;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 30px; 
+            color: $white-color;
+            
+            &:hover {
+                transition: .4s;
+                color: $black-color;
+            }
+        }
+    }
+}

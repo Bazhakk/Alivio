@@ -486,4 +486,41 @@ ul {
   background-color: #000000;
 }
 
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/Lato-Regular.eot") format("embedded-opentype"), url("../../fonts/Lato-Regular.svg") format("svg"), url("../../fonts/Lato-Regular.woff") format("woff"), url("../../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+.footer {
+  padding-top: 95px;
+  padding-bottom: 145px;
+  background: #245852;
+}
+.footer .logo {
+  max-width: 108px;
+}
+.footer .logo svg {
+  max-width: 108px;
+}
+.footer .logo:hover {
+  transition: 0.8s;
+  transform: rotateX(360deg);
+}
+.footer .footer-menu {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-menu__link {
+  font-family: "Lato";
+  margin-top: 60px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+}
+.footer .footer-menu__link:hover {
+  transition: 0.4s;
+  color: #000000;
+}
+
 /*# sourceMappingURL=home.css.map */
