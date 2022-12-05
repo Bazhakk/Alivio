@@ -12,8 +12,6 @@
 }
 
 .button_first {
-  display: flex;
-  align-items: center;
   padding: 13px 50px;
   font-size: 20px;
   line-height: 25px;
@@ -30,8 +28,6 @@
 }
 .button_second {
   margin-top: 47px;
-  display: flex;
-  align-items: center;
   padding: 20px 50px;
   background: #01996D;
   border: 1px solid #01996D;
@@ -48,8 +44,6 @@
   color: #000000;
 }
 .button_third {
-  display: flex;
-  align-items: center;
   padding: 20px 50px;
   border-radius: 4px;
   background: #01996D;
@@ -61,6 +55,22 @@
   color: #fff;
 }
 .button_third:hover {
+  transition: all 0.4s;
+  background-color: #fff;
+  color: #000000;
+}
+.button_fourth {
+  padding: 20px 50px;
+  border-radius: 4px;
+  background: #01996D;
+  border: 1px solid #01996D;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #fff;
+}
+.button_fourth:hover {
   transition: all 0.4s;
   background-color: #fff;
   color: #000000;

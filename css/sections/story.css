@@ -25,6 +25,7 @@
   color: #fff;
 }
 .story__text {
+  padding-bottom: 20px;
   max-width: 485px;
   font-family: "Lato";
   font-weight: 600;

@@ -4,6 +4,7 @@
   font-weight: 400;
 }
 .footer {
+  margin-top: 120px;
   padding-top: 95px;
   padding-bottom: 145px;
   background: #245852;
@@ -29,10 +30,6 @@
   font-size: 25px;
   line-height: 30px;
   color: #fff;
-}
-.footer .footer-menu__link:hover {
-  transition: 0.4s;
-  color: #000000;
 }
 
 /*# sourceMappingURL=footer.css.map */
