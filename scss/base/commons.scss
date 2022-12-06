@@ -138,26 +138,26 @@
         }
       }
 
-      &_footer {
-        position: relative;
+      // &_footer {
+      //   position: relative;
 
-        &::before {
-          content: '';
-          position: absolute;
-          left: 0;
-          bottom: -6px;
-          width: 0;
-          height: 2px;
-          background-color: $green-color;
-          transition: width .4s;
-        }
+      //   &::before {
+      //     content: '';
+      //     position: absolute;
+      //     left: 0;
+      //     bottom: -6px;
+      //     width: 0;
+      //     height: 2px;
+      //     background-color: $green-color;
+      //     transition: width .4s;
+      //   }
 
-        &:hover {
-          &::before {
-            width: 10%;
-          }
-        }
-      }
+      //   &:hover {
+      //     &::before {
+      //       width: 10%;
+      //     }
+      //   }
+      // }
     }
 
     

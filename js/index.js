@@ -13,4 +13,24 @@ jQuery(document).ready(function ( $ ) {
     e.stopPropagation();
   });
 
+
+  //VIDEO
+    const btnOk = document.querySelector('.btn-play');
+    const btnStop = document.querySelector('.btn-stop');
+    const wrapperVideo = document.getElementById('story-video');
+    
+    btnOk.addEventListener('click',function(){
+      wrapperVideo.play();
+    });
+    
+    btnStop.addEventListener('click',function(){
+      wrapperVideo.pause();
+    });
+
+
+  // AOS init
+  AOS.init({
+    once: true
+  });
+
 });
