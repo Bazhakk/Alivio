@@ -153,6 +153,22 @@ ul {
 .link-anima:hover::before {
   width: 100%;
 }
+.link-anima_footer {
+  position: relative;
+}
+.link-anima_footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 2px;
+  background-color: #01996D;
+  transition: width 0.4s;
+}
+.link-anima_footer:hover::before {
+  width: 10%;
+}
 
 @font-face {
   font-family: "Lato";
@@ -285,6 +301,12 @@ ul {
   background-size: cover;
   background-position: center;
 }
+@media screen and (max-width: 1024px) {
+  .hero {
+    padding: 30px 0 80px;
+    background-image: url("../../img/hero-mobile.jpg");
+  }
+}
 .hero__box {
   max-width: 440px;
   padding-top: 175px;
@@ -336,6 +358,7 @@ ul {
     margin: 0 auto;
     padding-bottom: 26px;
     flex-direction: column;
+    gap: 30px;
   }
 }
 .stages__left {
@@ -362,6 +385,12 @@ ul {
   line-height: 157%;
   color: #01996D;
 }
+@media screen and (max-width: 1024px) {
+  .stages__title {
+    margin: 0 auto;
+    font-size: 30px;
+  }
+}
 .stages__right {
   width: 40%;
   max-width: 670x;
@@ -383,6 +412,8 @@ ul {
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  padding: 0;
+  margin: 0;
 }
 @media screen and (max-width: 1024px) {
   .stages .phane {
@@ -423,6 +454,7 @@ ul {
 @media screen and (max-width: 1024px) {
   .stages .phane__section {
     max-width: 135px;
+    margin: 0 auto;
   }
 }
 .stages .phane__namber {
@@ -452,6 +484,14 @@ ul {
   line-height: 150%;
   color: #424242;
 }
+@media screen and (max-width: 1024px) {
+  .stages .phane__text {
+    margin: 0 auto;
+  }
+}
+.stages .phane__img {
+  max-width: 390px;
+}
 
 @font-face {
   font-family: "Lato";
@@ -478,7 +518,7 @@ ul {
   }
 }
 .story__left {
-  max-width: 512px;
+  width: 50%;
   padding: 210px 0 345px;
 }
 @media screen and (max-width: 1024px) {
@@ -512,7 +552,7 @@ ul {
   color: #fff;
 }
 .story__right {
-  position: relative;
+  width: 50%;
   padding: 230px 0 180px;
 }
 @media screen and (max-width: 1024px) {
@@ -521,7 +561,10 @@ ul {
   }
 }
 .story__img {
-  max-width: 825px;
+  display: none;
+}
+.story__video {
+  display: block;
 }
 
 @font-face {
@@ -557,8 +600,19 @@ ul {
 .product__col_right {
   padding-left: 80px;
 }
+@media screen and (max-width: 1024px) {
+  .product__col_right {
+    margin: 0 auto;
+    padding-top: 43%;
+  }
+}
 .product__img {
   border-radius: 18px;
+}
+@media screen and (max-width: 1024px) {
+  .product__img {
+    margin: 0 160px auto;
+  }
 }
 .product__text {
   margin-top: 0;
@@ -581,7 +635,7 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .product__title {
-    max-width: 290px;
+    font-size: 30px;
   }
 }
 .product__subtitle {
@@ -612,7 +666,8 @@ ul {
 @media screen and (max-width: 1024px) {
   .product .card {
     margin: 0 auto;
-    left: 30px;
+    left: 130px;
+    top: 160px;
   }
 }
 .product .card__text {

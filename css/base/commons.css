@@ -121,5 +121,21 @@
 .link-anima:hover::before {
   width: 100%;
 }
+.link-anima_footer {
+  position: relative;
+}
+.link-anima_footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 2px;
+  background-color: #01996D;
+  transition: width 0.4s;
+}
+.link-anima_footer:hover::before {
+  width: 10%;
+}
 
 /*# sourceMappingURL=commons.css.map */

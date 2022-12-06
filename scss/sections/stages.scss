@@ -18,6 +18,7 @@
             margin: 0 auto;
             padding-bottom: 26px;
             flex-direction: column;
+            gap: 30px;
         }
     }
 
@@ -40,12 +41,16 @@
     }
 
     &__title {
-        // max-width: 585px;
         font-family: 'Georgia';
         font-weight: 700;
         font-size: 50px;
         line-height: 157%;
         color: $green-color;
+
+        @media screen and (max-width: 1024px) {
+            margin: 0 auto;
+            font-size: 30px;
+        }
     }
 
     &__right {
@@ -71,8 +76,8 @@
         display: flex;
         justify-content: space-between;
         gap: 50px;
-        // padding: 0;
-        // margin: 0;
+        padding: 0;
+        margin: 0;
 
         @media screen and (max-width: 1024px) {
             margin: 0 auto;
@@ -112,6 +117,7 @@
 
             @media screen and (max-width: 1024px) {
                 max-width: 135px;
+                margin: 0 auto;
             }
         }
 
@@ -123,11 +129,6 @@
             line-height: 150%;
             text-align: center;
             color: $namber-color;
-
-            // @media screen and (max-width: 1024px) {
-            //     font-size: 75px;
-            //     line-height: 75%;
-            // }
         }
 
         &__title {
@@ -149,6 +150,14 @@
             font-size: 20px;
             line-height: 150%;
             color: $text-color;
+
+            @media screen and (max-width: 1024px) {
+                margin: 0 auto;
+            }
+        }
+
+        &__img {
+            max-width: 390px;
         }
     }
 }

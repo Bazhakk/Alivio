@@ -31,8 +31,19 @@
 .product__col_right {
   padding-left: 80px;
 }
+@media screen and (max-width: 1024px) {
+  .product__col_right {
+    margin: 0 auto;
+    padding-top: 43%;
+  }
+}
 .product__img {
   border-radius: 18px;
+}
+@media screen and (max-width: 1024px) {
+  .product__img {
+    margin: 0 160px auto;
+  }
 }
 .product__text {
   margin-top: 0;
@@ -55,7 +66,7 @@
 }
 @media screen and (max-width: 1024px) {
   .product__title {
-    max-width: 290px;
+    font-size: 30px;
   }
 }
 .product__subtitle {
@@ -86,7 +97,8 @@
 @media screen and (max-width: 1024px) {
   .product .card {
     margin: 0 auto;
-    left: 30px;
+    left: 130px;
+    top: 160px;
   }
 }
 .product .card__text {

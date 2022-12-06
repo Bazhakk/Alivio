@@ -22,6 +22,7 @@
     margin: 0 auto;
     padding-bottom: 26px;
     flex-direction: column;
+    gap: 30px;
   }
 }
 .stages__left {
@@ -48,6 +49,12 @@
   line-height: 157%;
   color: #01996D;
 }
+@media screen and (max-width: 1024px) {
+  .stages__title {
+    margin: 0 auto;
+    font-size: 30px;
+  }
+}
 .stages__right {
   width: 40%;
   max-width: 670x;
@@ -69,6 +76,8 @@
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  padding: 0;
+  margin: 0;
 }
 @media screen and (max-width: 1024px) {
   .stages .phane {
@@ -109,6 +118,7 @@
 @media screen and (max-width: 1024px) {
   .stages .phane__section {
     max-width: 135px;
+    margin: 0 auto;
   }
 }
 .stages .phane__namber {
@@ -137,6 +147,14 @@
   font-size: 20px;
   line-height: 150%;
   color: #424242;
+}
+@media screen and (max-width: 1024px) {
+  .stages .phane__text {
+    margin: 0 auto;
+  }
+}
+.stages .phane__img {
+  max-width: 390px;
 }
 
 /*# sourceMappingURL=stages.css.map */
