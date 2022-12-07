@@ -15,17 +15,27 @@ jQuery(document).ready(function ( $ ) {
 
 
   //VIDEO
-    const btnOk = document.querySelector('.btn-play');
-    const btnStop = document.querySelector('.btn-stop');
-    const wrapperVideo = document.getElementById('story-video');
-    
-    btnOk.addEventListener('click',function(){
-      wrapperVideo.play();
-    });
-    
-    btnStop.addEventListener('click',function(){
-      wrapperVideo.pause();
-    });
+  const btnPlay = document.getElementById('btn-play');
+  // const btnStop = document.querySelector('.btn-stop');
+  const storyVideo = document.getElementById('story-video');
+  const storyImg = document.getElementById('story-img');
+  
+  btnPlay.addEventListener('click',function(){
+    btnPlay.classList.toggle('story__play-active');
+    storyImg.style.display = 'none';
+    storyVideo.style.display = 'block';
+    storyVideo.play();
+
+    if(btnPlay.classList.contains('story__play-active')) {
+      storyVideo.pause();
+    }
+  });
+  
+  // btnStop.addEventListener('click',function(){
+  //   storyImg.style.display = 'none';
+  //   storyVideo.style.display = 'block';
+  //   storyVideo.pause();
+  // });
 
 
   // AOS init

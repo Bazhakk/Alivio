@@ -202,7 +202,7 @@ ul {
   flex-direction: column;
   align-items: center;
   position: fixed;
-  top: 20;
+  top: 20px;
   right: 0;
   left: 0;
   font-size: 24px;
@@ -257,6 +257,8 @@ ul {
 }
 
 .burger {
+  position: relative;
+  z-index: 9999;
   display: none;
   width: 60px;
   height: 60px;
@@ -484,6 +486,7 @@ ul {
 }
 .story {
   margin-bottom: 120px;
+  padding: 220px 0 130px;
   background-color: #245852;
 }
 @media screen and (max-width: 1024px) {
@@ -502,8 +505,7 @@ ul {
   }
 }
 .story__left {
-  width: 50%;
-  padding: 210px 0 345px;
+  width: 30%;
 }
 @media screen and (max-width: 1024px) {
   .story__left {
@@ -536,8 +538,12 @@ ul {
   color: #fff;
 }
 .story__right {
-  width: 50%;
-  padding: 230px 0 180px;
+  position: relative;
+  width: 70%;
+  height: fit-content;
+  max-height: 500px;
+  border-radius: 16px;
+  overflow: hidden;
 }
 @media screen and (max-width: 1024px) {
   .story__right {
@@ -545,10 +551,20 @@ ul {
   }
 }
 .story__img {
-  display: none;
+  display: block;
 }
 .story__video {
-  display: block;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.story__play {
+  position: absolute;
+  top: 50px;
+  cursor: pointer;
+}
+.story__play-active {
+  background-color: red;
 }
 
 @font-face {
