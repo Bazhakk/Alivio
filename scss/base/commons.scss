@@ -34,6 +34,7 @@
 
         &:hover {
           transition: all .4s;
+          border: 0;
           background-color: $white-color;
           color: $black-color;
         }
@@ -60,7 +61,8 @@
 
         &:hover {
           transition: all .4s;
-          background-color: $white-color;
+          border: 0;
+          background-color: transparent;
           color: $black-color;
         }
       }
@@ -85,6 +87,7 @@
 
         &:hover {
           transition: all .4s;
+          border: 0;
           background-color: $white-color;
           color: $black-color;
         }
@@ -110,6 +113,7 @@
 
         &:hover {
           transition: all .4s;
+          border: 0;
           background-color: $white-color;
           color: $black-color;
         }
@@ -137,27 +141,6 @@
           width: 100%;
         }
       }
-
-      // &_footer {
-      //   position: relative;
-
-      //   &::before {
-      //     content: '';
-      //     position: absolute;
-      //     left: 0;
-      //     bottom: -6px;
-      //     width: 0;
-      //     height: 2px;
-      //     background-color: $green-color;
-      //     transition: width .4s;
-      //   }
-
-      //   &:hover {
-      //     &::before {
-      //       width: 100%;
-      //     }
-      //   }
-      // }
     }
 
     

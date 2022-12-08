@@ -17,10 +17,10 @@
   }
 }
 .footer .logo {
-  max-width: 108px;
+  max-height: 55px;
 }
 .footer .logo svg {
-  max-width: 108px;
+  max-height: 55px;
 }
 .footer .logo:hover {
   transition: 0.8s;
@@ -36,6 +36,7 @@
   }
 }
 .footer .footer-menu__link {
+  width: fit-content;
   font-family: "Lato";
   margin-top: 60px;
   font-weight: 600;
