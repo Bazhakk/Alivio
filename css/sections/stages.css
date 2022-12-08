@@ -14,6 +14,7 @@
 .stages__box {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-bottom: 52px;
   gap: 70px;
 }
@@ -26,7 +27,7 @@
   }
 }
 .stages__left {
-  width: 60%;
+  width: 48%;
   max-width: 585px;
 }
 @media screen and (max-width: 1024px) {
@@ -56,7 +57,7 @@
   }
 }
 .stages__right {
-  width: 40%;
+  width: 52%;
   max-width: 670x;
 }
 @media screen and (max-width: 1024px) {

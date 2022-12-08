@@ -37,7 +37,7 @@ ul {
 }
 .container {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1350px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -202,11 +202,13 @@ ul {
 }
 
 .mobile-menu {
+  height: 100vh;
   display: none;
+  z-index: 9;
   flex-direction: column;
   align-items: center;
   position: fixed;
-  top: 20px;
+  top: 0;
   right: 0;
   left: 0;
   font-size: 24px;
@@ -340,6 +342,7 @@ ul {
 .stages__box {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-bottom: 52px;
   gap: 70px;
 }
@@ -352,7 +355,7 @@ ul {
   }
 }
 .stages__left {
-  width: 60%;
+  width: 48%;
   max-width: 585px;
 }
 @media screen and (max-width: 1024px) {
@@ -382,7 +385,7 @@ ul {
   }
 }
 .stages__right {
-  width: 40%;
+  width: 52%;
   max-width: 670x;
 }
 @media screen and (max-width: 1024px) {
@@ -498,13 +501,13 @@ ul {
     margin: 0 auto 60px;
   }
 }
-.story__box {
+.story__container {
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
 @media screen and (max-width: 1024px) {
-  .story__box {
+  .story__container {
     flex-direction: column;
   }
 }
@@ -587,6 +590,8 @@ ul {
 .product__container {
   display: flex;
   position: relative;
+  gap: 40px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1024px) {
   .product__container {
@@ -598,19 +603,15 @@ ul {
   width: 50%;
 }
 .product__col_left {
-  padding-left: 60px;
   box-sizing: border-box;
-}
-.product__col_right {
-  padding-left: 80px;
 }
 @media screen and (max-width: 1024px) {
   .product__col_right {
     margin: 0 auto;
-    padding-top: 43%;
   }
 }
 .product__img {
+  max-width: 640px;
   border-radius: 18px;
 }
 @media screen and (max-width: 1024px) {
@@ -628,9 +629,7 @@ ul {
   color: #424242;
 }
 .product__title {
-  max-width: 585px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 10px 0 0 20px;
   font-family: "Georgia";
   font-weight: 700;
   font-size: 50px;
@@ -643,7 +642,6 @@ ul {
   }
 }
 .product__subtitle {
-  max-width: 530px;
   padding-bottom: 40px;
   font-family: "Lato";
   font-weight: 400;
