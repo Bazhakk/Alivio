@@ -133,6 +133,7 @@
         }
 
         &__title {
+            // font-weight: bold;
             margin: -85px 0 40px 0 ;
             text-align: center;
             font-family: 'Lato';
@@ -159,6 +160,10 @@
 
         &__img {
             max-width: 390px;
+
+            // @media screen and (max-width: 1024px) {
+            //     width: 50%;
+            // }
         }
     }
 }
