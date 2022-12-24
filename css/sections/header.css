@@ -85,19 +85,19 @@
   justify-content: space-between;
   align-items: center;
 }
-.sign__link {
+.sign__linkin {
   font-family: "Lato";
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #000000;
 }
-.sign__link:hover {
+.sign__linkin:hover {
   transition: all 0.4s;
   color: #01996D;
 }
 @media screen and (max-width: 1024px) {
-  .sign__link {
+  .sign__linkin {
     margin-right: 10px;
   }
 }

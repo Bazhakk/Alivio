@@ -5,7 +5,7 @@
 }
 .container {
   width: 100%;
-  max-width: 1350px;
+  max-width: 1250px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -73,7 +73,7 @@
 }
 @media screen and (max-width: 280px) {
   .button_third {
-    padding: 10px 25px;
+    padding: 6px 25px;
     font-size: 10px;
     line-height: 15px;
   }

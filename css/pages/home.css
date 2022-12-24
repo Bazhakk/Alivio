@@ -37,7 +37,7 @@ ul {
 }
 .container {
   width: 100%;
-  max-width: 1350px;
+  max-width: 1250px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -105,7 +105,7 @@ ul {
 }
 @media screen and (max-width: 280px) {
   .button_third {
-    padding: 10px 25px;
+    padding: 6px 25px;
     font-size: 10px;
     line-height: 15px;
   }
@@ -245,19 +245,19 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
-.sign__link {
+.sign__linkin {
   font-family: "Lato";
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #000000;
 }
-.sign__link:hover {
+.sign__linkin:hover {
   transition: all 0.4s;
   color: #01996D;
 }
 @media screen and (max-width: 1024px) {
-  .sign__link {
+  .sign__linkin {
     margin-right: 10px;
   }
 }
@@ -496,11 +496,6 @@ ul {
   padding: 220px 0 130px;
   background-color: #245852;
 }
-@media screen and (max-width: 1024px) {
-  .story {
-    margin: 0 auto 60px;
-  }
-}
 .story__container {
   display: flex;
   justify-content: space-between;
@@ -516,9 +511,8 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .story__left {
-    max-width: 260px;
+    max-width: 200px;
     margin: 0 auto;
-    padding: 100px 0 170px;
   }
 }
 .story__title {
@@ -529,12 +523,6 @@ ul {
   line-height: 157%;
   color: #fff;
 }
-@media screen and (max-width: 1024px) {
-  .story__title {
-    padding-bottom: 30px;
-    font-size: 35px;
-  }
-}
 .story__text {
   padding-bottom: 20px;
   max-width: 485px;
@@ -543,6 +531,11 @@ ul {
   font-size: 25px;
   line-height: 157%;
   color: #fff;
+}
+@media screen and (max-width: 1024px) {
+  .story__text {
+    max-width: 250px;
+  }
 }
 .story__right {
   position: relative;
@@ -554,24 +547,58 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .story__right {
-    padding: 90px 0 90px;
+    margin: 0 auto;
   }
+}
+.story__img, .story__video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .story__img {
   display: block;
 }
 .story__video {
   display: none;
-  width: 100%;
-  height: 100%;
 }
 .story__play {
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  border-radius: 50%;
   position: absolute;
-  top: 50px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: none;
+  border: none;
   cursor: pointer;
+  overflow: hidden;
 }
 .story__play-active {
-  background-color: red;
+  background-color: transparent;
+}
+.story__play-svg {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.story__play-playing {
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.8;
+  background-color: transparent;
+}
+.story__play:hover .story__play-playing {
+  transition: 0.4s;
+  background-color: #424242;
 }
 
 @font-face {

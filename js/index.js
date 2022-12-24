@@ -16,7 +16,6 @@ jQuery(document).ready(function ( $ ) {
 
   //VIDEO
   const btnPlay = document.getElementById('btn-play');
-  // const btnStop = document.querySelector('.btn-stop');
   const storyVideo = document.getElementById('story-video');
   const storyImg = document.getElementById('story-img');
   
@@ -30,12 +29,6 @@ jQuery(document).ready(function ( $ ) {
       storyVideo.pause();
     }
   });
-  
-  // btnStop.addEventListener('click',function(){
-  //   storyImg.style.display = 'none';
-  //   storyVideo.style.display = 'block';
-  //   storyVideo.pause();
-  // });
 
 
   // AOS init
