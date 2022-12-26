@@ -21,8 +21,7 @@
         width: 30%;
 
         @media screen and (max-width: 1024px) {
-            max-width: 200px;
-           margin: 0 auto;
+            margin: 0 auto;
         }
     }
 
@@ -33,6 +32,11 @@
         font-size: 50px;
         line-height: 157%;
         color: $white-color;
+
+        @media screen and (max-width: 1024px) {
+            padding-bottom: 30px;
+            font-size: 25px;
+        }
     }
 
     &__text {
@@ -43,10 +47,6 @@
         font-size: 25px;
         line-height: 157%;
         color: $white-color;
-
-        @media screen and (max-width: 1024px) {
-            max-width: 250px;
-        }
     }
 
 

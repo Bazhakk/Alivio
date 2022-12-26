@@ -32,6 +32,7 @@
 
             @media screen and (max-width: 1024px) {
                 margin: 0 auto;
+                padding-top: 400px;
             }
         }
     }
@@ -105,10 +106,15 @@
             border-bottom: .7px solid $black-color;
             font-family: 'Lato';
             font-weight: 600;
-            font-size: 14.49px;
+            font-size: 15px;
             line-height: 157%;
             text-align: center;
             color: $black-color;
+
+            @media screen and (max-width: 1024px) {
+                margin: 0 auto6 auto;
+                padding: 0 1px 4px 1px;
+            }
         }
 
         &__img {

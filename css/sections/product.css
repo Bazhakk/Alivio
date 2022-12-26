@@ -32,6 +32,7 @@
 @media screen and (max-width: 1024px) {
   .product__col_right {
     margin: 0 auto;
+    padding-top: 400px;
   }
 }
 .product__img {
@@ -103,10 +104,16 @@
   border-bottom: 0.7px solid #000000;
   font-family: "Lato";
   font-weight: 600;
-  font-size: 14.49px;
+  font-size: 15px;
   line-height: 157%;
   text-align: center;
   color: #000000;
+}
+@media screen and (max-width: 1024px) {
+  .product .card__text {
+    margin: 0 auto6 auto;
+    padding: 0 1px 4px 1px;
+  }
 }
 .product .card__img {
   display: block;
