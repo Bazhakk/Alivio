@@ -16,6 +16,10 @@
   font-size: 20px;
   line-height: 25px;
   text-align: center;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
   color: #fff;
   border-radius: 4px;
   background: #01996D;
@@ -31,7 +35,6 @@
 }
 .button_first:hover {
   transition: all 0.4s;
-  border: 0;
   background-color: #fff;
   color: #000000;
 }
@@ -56,7 +59,6 @@
 }
 .button_second:hover {
   transition: all 0.4s;
-  border: 0;
   background-color: transparent;
   color: #000000;
 }
@@ -86,7 +88,6 @@
 }
 .button_third:hover {
   transition: all 0.4s;
-  border: 0;
   background-color: #fff;
   color: #000000;
 }
@@ -110,7 +111,6 @@
 }
 .button_fourth:hover {
   transition: all 0.4s;
-  border: 0;
   background-color: #fff;
   color: #000000;
 }

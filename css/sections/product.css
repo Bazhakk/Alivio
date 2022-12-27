@@ -32,7 +32,6 @@
 @media screen and (max-width: 1024px) {
   .product__col_right {
     margin: 0 auto;
-    padding-top: 400px;
   }
 }
 .product__img {
@@ -54,7 +53,6 @@
   color: #424242;
 }
 .product__title {
-  margin: 10px 0 0 20px;
   font-family: "Georgia";
   font-weight: 700;
   font-size: 50px;
@@ -83,7 +81,6 @@
   width: 296px;
   box-sizing: border-box;
   padding: 25px 55px;
-  position: absolute;
   top: 260px;
   left: 0;
   border-radius: 4px;

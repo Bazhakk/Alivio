@@ -55,7 +55,7 @@
   line-height: 28px;
   background-color: #fff;
 }
-.mobile-menu__menu {
+.mobile-menu__menu, .mobile-menu__link {
   margin: 0 auto;
   margin: 20px;
   color: #000000;
@@ -78,27 +78,27 @@
   }
 }
 
-.sign {
+.signin {
   width: 100%;
   max-width: 280px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.sign__linkin {
+.signin__link {
   font-family: "Lato";
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #000000;
 }
-.sign__linkin:hover {
+.signin__link:hover {
   transition: all 0.4s;
   color: #01996D;
 }
 @media screen and (max-width: 1024px) {
-  .sign__linkin {
-    margin-right: 10px;
+  .signin__link {
+    display: none;
   }
 }
 

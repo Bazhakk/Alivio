@@ -48,6 +48,10 @@ ul {
   font-size: 20px;
   line-height: 25px;
   text-align: center;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
   color: #fff;
   border-radius: 4px;
   background: #01996D;
@@ -63,7 +67,6 @@ ul {
 }
 .button_first:hover {
   transition: all 0.4s;
-  border: 0;
   background-color: #fff;
   color: #000000;
 }
@@ -88,7 +91,6 @@ ul {
 }
 .button_second:hover {
   transition: all 0.4s;
-  border: 0;
   background-color: transparent;
   color: #000000;
 }
@@ -118,7 +120,6 @@ ul {
 }
 .button_third:hover {
   transition: all 0.4s;
-  border: 0;
   background-color: #fff;
   color: #000000;
 }
@@ -142,7 +143,6 @@ ul {
 }
 .button_fourth:hover {
   transition: all 0.4s;
-  border: 0;
   background-color: #fff;
   color: #000000;
 }
@@ -221,7 +221,7 @@ ul {
   line-height: 28px;
   background-color: #fff;
 }
-.mobile-menu__menu {
+.mobile-menu__menu, .mobile-menu__link {
   margin: 0 auto;
   margin: 20px;
   color: #000000;
@@ -244,27 +244,27 @@ ul {
   }
 }
 
-.sign {
+.signin {
   width: 100%;
   max-width: 280px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.sign__linkin {
+.signin__link {
   font-family: "Lato";
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #000000;
 }
-.sign__linkin:hover {
+.signin__link:hover {
   transition: all 0.4s;
   color: #01996D;
 }
 @media screen and (max-width: 1024px) {
-  .sign__linkin {
-    margin-right: 10px;
+  .signin__link {
+    display: none;
   }
 }
 
@@ -517,6 +517,7 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .story__left {
+    width: 100%;
     margin: 0 auto;
   }
 }
@@ -641,7 +642,6 @@ ul {
 @media screen and (max-width: 1024px) {
   .product__col_right {
     margin: 0 auto;
-    padding-top: 400px;
   }
 }
 .product__img {
@@ -663,7 +663,6 @@ ul {
   color: #424242;
 }
 .product__title {
-  margin: 10px 0 0 20px;
   font-family: "Georgia";
   font-weight: 700;
   font-size: 50px;
@@ -692,7 +691,6 @@ ul {
   width: 296px;
   box-sizing: border-box;
   padding: 25px 55px;
-  position: absolute;
   top: 260px;
   left: 0;
   border-radius: 4px;
