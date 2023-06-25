@@ -2,46 +2,38 @@
 @import "../base/variables";
 
 .footer {
-    margin-top: 120px;
+  background: $background-color;
+
+  &__container {
     padding-top: 95px;
     padding-bottom: 145px;
-    background: $background-color;
+  }
+  
+  .logo {
+    max-height: 55px;
 
-    @media screen and (max-width: 280px) {
-        margin: 60px auto 0;
-        padding-top: 50px;
-        padding-bottom: 70px;
-      }
-
-    .logo {
-        max-height: 55px;
-
-        svg {
-          max-height: 55px;
-        }
-
-        &:hover {
-            transition: .8s;
-            transform: rotateX(360deg);
-          }
+    svg {
+      max-height: 55px;
     }
 
-    .footer-menu {
-        display: flex;
-        flex-direction: column;
-
-        @media screen and (max-width: 280px) {
-            margin: 0 auto;
-          }
-
-        &__link {
-            width: fit-content;
-            font-family: 'Lato';
-            margin-top: 60px;
-            font-weight: 600;
-            font-size: 25px;
-            line-height: 30px; 
-            color: $white-color;
-        }
+    &:hover {
+      transition: .8s;
+      transform: rotateX(360deg);
     }
+}
+
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+
+    &__link {
+        width: fit-content;
+        font-family: 'Lato';
+        margin-top: 60px;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px; 
+        color: $white-color;
+    }
+  }
 }

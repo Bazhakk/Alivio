@@ -4,48 +4,100 @@
   font-weight: 400;
 }
 .product {
-  padding: 120px 0 170px;
+  padding: 120px 0;
 }
 @media screen and (max-width: 1024px) {
   .product {
-    padding: 60px 0 75px;
+    padding-top: 60px 0;
   }
 }
 .product__container {
   display: flex;
-  position: relative;
-  gap: 40px;
-  margin: 0 auto;
+  gap: 86px;
 }
 @media screen and (max-width: 1024px) {
   .product__container {
-    margin: 0 auto;
     flex-direction: column;
-  }
-}
-.product__col {
-  width: 50%;
-}
-.product__col_left {
-  box-sizing: border-box;
-}
-@media screen and (max-width: 1024px) {
-  .product__col_right {
-    margin: 0 auto;
+    gap: 43px;
   }
 }
 .product__img {
   max-width: 640px;
-  border-radius: 18px;
+  background: url(court-cook-TSZo17r3m0s-unsplash-removebg.png);
+  border-radius: 19px;
+}
+.product .card {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: -24%;
+  left: -14%;
+  background-color: #fff;
+  filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+  border-radius: 4px;
 }
 @media screen and (max-width: 1024px) {
-  .product__img {
-    margin: 0 160px auto;
+  .product .card {
+    top: -10rem;
+    left: -1rem;
   }
 }
-.product__text {
+.product .card__line {
+  width: 130px;
+  margin: 0 auto;
+  border: 1px solid #000000;
+}
+.product .card__title {
+  padding-top: 22px;
+  text-align: center;
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 157%;
+  color: #000000;
+}
+.product .card__img {
+  width: 60px;
+  height: 60px;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  transform: translate(7rem);
+}
+.product .card__name {
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 11.9351px;
+  line-height: 157%;
+  color: #000000;
+}
+.product .card__title {
   margin-top: 0;
-  margin-bottom: 10px;
+  padding-top: 20px;
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 15.9292px;
+  line-height: 157%;
+  color: #000000;
+}
+.product .card__list {
+  list-style: circle;
+  transform: translate(13%);
+}
+.product .card__item {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 10.6195px;
+  line-height: 157%;
+  color: #000000;
+}
+.product__right {
+  max-width: 585px;
+}
+.product__text {
+  margin-bottom: 0;
+  padding-bottom: 10px;
   font-family: "Lato";
   font-weight: 600;
   font-size: 25px;
@@ -53,6 +105,7 @@
   color: #424242;
 }
 .product__title {
+  margin: 0;
   font-family: "Georgia";
   font-weight: 700;
   font-size: 50px;
@@ -61,98 +114,19 @@
 }
 @media screen and (max-width: 1024px) {
   .product__title {
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 110%;
   }
 }
 .product__subtitle {
+  margin-top: 0;
+  padding-top: 20px;
   padding-bottom: 40px;
   font-family: "Lato";
   font-weight: 400;
   font-size: 20px;
-  line-height: 31px;
+  line-height: 145%;
   color: #484848;
-}
-@media screen and (max-width: 1024px) {
-  .product__subtitle {
-    max-width: 290px;
-  }
-}
-.product .card {
-  width: 296px;
-  box-sizing: border-box;
-  padding: 25px 55px;
-  top: 260px;
-  left: 0;
-  border-radius: 4px;
-  background-color: #fff;
-  filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
-}
-@media screen and (max-width: 1024px) {
-  .product .card {
-    margin: 0 auto;
-    left: 130px;
-    top: 160px;
-  }
-}
-.product .card__text {
-  width: fit-content;
-  margin: 0 auto 13px auto;
-  padding: 0 3px 7px 3px;
-  border-bottom: 0.7px solid #000000;
-  font-family: "Lato";
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 157%;
-  text-align: center;
-  color: #000000;
-}
-@media screen and (max-width: 1024px) {
-  .product .card__text {
-    margin: 0 auto6 auto;
-    padding: 0 1px 4px 1px;
-  }
-}
-.product .card__img {
-  display: block;
-  max-width: 57px;
-  margin: 0 auto 13px auto;
-  border-radius: 50%;
-}
-.product .card__name {
-  font-family: "Lato";
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 157%;
-  text-align: center;
-  color: #000000;
-}
-.product .card__title {
-  font-family: "Georgia";
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 157%;
-  color: #000000;
-}
-.product .card__list {
-  padding-left: 0;
-  list-style: none;
-}
-.product .card__list_item {
-  margin-bottom: 15px;
-  font-family: "Lato";
-  font-weight: 400;
-  font-size: 11px;
-  line-height: 157%;
-}
-.product .card__list_item::before {
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 2px;
-  content: "";
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background-color: #000000;
 }
 
 /*# sourceMappingURL=product.css.map */

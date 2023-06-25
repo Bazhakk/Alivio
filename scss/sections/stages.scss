@@ -2,34 +2,23 @@
 @import "../base/variables";
 
 .stages {
-    margin: 170px auto 40px;
+    padding-top: 170px;
+    padding-bottom: 40px;
 
     @media screen and (max-width: 1024px) {
-        margin: 85px auto 20px;
+        padding-top: 70px;
     }
 
     &__box {
         display: flex;
         align-items: center;
-        justify-content: space-between;
         padding-bottom: 52px;
         gap: 70px;
 
         @media screen and (max-width: 1024px) {
-            margin: 0 auto;
             padding-bottom: 26px;
             flex-direction: column;
             gap: 30px;
-        }
-    }
-
-    &__left {
-        width: 48%;
-        max-width: 585px;
-
-        @media screen and (max-width: 1024px) {
-            max-width: 290px;
-            margin: 0 auto;
         }
     }
 
@@ -42,6 +31,8 @@
     }
 
     &__title {
+        max-width: 680px;
+        margin-top: 0;
         font-family: 'Georgia';
         font-weight: 700;
         font-size: 50px;
@@ -49,48 +40,35 @@
         color: $green-color;
 
         @media screen and (max-width: 1024px) {
-            margin: 0 auto;
-            font-size: 30px;
-        }
-    }
-
-    &__right {
-        width: 52%;
-        max-width: 670x;
-
-        @media screen and (max-width: 1024px) {
-            max-width: 335px;
-            margin: 0 auto;
+            margin-bottom: 0;
         }
     }
 
     &__subtitle {
+        max-width: 600px;
         font-family: 'Lato';
         font-weight: 500;
         font-size: 20px;
         line-height: 150%;
         color: $text-color;
-    }
 
+        @media screen and (max-width: 1024px) {
+            margin-top: 0;
+        }
+    }
 
     .phane {
         display: flex;
-        justify-content: space-between;
-        gap: 50px;
-        padding: 0;
         margin: 0;
+        padding: 0;
+        gap: 50px;
 
         @media screen and (max-width: 1024px) {
-            margin: 0 auto;
             flex-direction: column;
         }
 
         &__item {
             max-width: 390px;
-
-            @media screen and (max-width: 1024px) {
-               max-width: 200px;
-            }
 
             &_1 {
                 margin-top: 0;
@@ -115,11 +93,6 @@
 
         &__section {
             max-width: 270px;
-
-            @media screen and (max-width: 1024px) {
-                max-width: 135px;
-                margin: 0 auto;
-            }
         }
 
         &__namber {
@@ -144,17 +117,12 @@
 
 
         &__text {
-            max-width: 383px;
             padding-bottom: 60px;
             font-family: 'Lato';
             font-weight: 500;
             font-size: 20px;
             line-height: 150%;
             color: $text-color;
-
-            @media screen and (max-width: 1024px) {
-                margin: 0 auto;
-            }
         }
 
         &__img {

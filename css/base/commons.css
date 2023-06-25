@@ -25,21 +25,36 @@
   background: #01996D;
   border: 1px solid #01996D;
 }
-@media screen and (max-width: 425px) {
-  .button_first {
-    margin-right: 10px;
-    padding: 6px 25px;
-    font-size: 10px;
-    line-height: 15px;
-  }
-}
 .button_first:hover {
   transition: all 0.4s;
   background-color: #fff;
   color: #000000;
 }
+@media screen and (max-width: 1024px) {
+  .button_first {
+    display: none;
+  }
+}
+.button_first-mobile {
+  padding: 13px 50px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #fff;
+  border-radius: 4px;
+  background: #01996D;
+  border: 1px solid #01996D;
+}
+.button_first-mobile:hover {
+  transition: all 0.4s;
+  background-color: #fff;
+  color: #000000;
+}
 .button_second {
-  margin-top: 47px;
   padding: 20px 50px;
   background: #01996D;
   border: 1px solid #01996D;
@@ -50,17 +65,16 @@
   line-height: 25px;
   color: #fff;
 }
-@media screen and (max-width: 264px) {
-  .button_second {
-    padding: 6px 25px;
-    font-size: 10px;
-    line-height: 15px;
-  }
-}
 .button_second:hover {
   transition: all 0.4s;
   background-color: transparent;
   color: #000000;
+}
+@media screen and (max-width: 1024px) {
+  .button_second {
+    display: block;
+    text-align: center;
+  }
 }
 .button_third {
   padding: 20px 50px;
@@ -73,23 +87,16 @@
   line-height: 25px;
   color: #fff;
 }
-@media screen and (max-width: 860px) {
-  .button_third {
-    font-size: 10px;
-    line-height: 15px;
-  }
-}
-@media screen and (max-width: 615px) {
-  .button_third {
-    padding: 6px 25px;
-    font-size: 10px;
-    line-height: 15px;
-  }
-}
 .button_third:hover {
   transition: all 0.4s;
   background-color: #fff;
   color: #000000;
+}
+@media screen and (max-width: 1024px) {
+  .button_third {
+    display: block;
+    text-align: center;
+  }
 }
 .button_fourth {
   padding: 20px 50px;
@@ -102,17 +109,16 @@
   line-height: 25px;
   color: #fff;
 }
-@media screen and (max-width: 500px) {
-  .button_fourth {
-    padding: 10px 25px;
-    font-size: 10px;
-    line-height: 15px;
-  }
-}
 .button_fourth:hover {
   transition: all 0.4s;
   background-color: #fff;
   color: #000000;
+}
+@media screen and (max-width: 1024px) {
+  .button_fourth {
+    display: block;
+    text-align: center;
+  }
 }
 
 .link-anima {

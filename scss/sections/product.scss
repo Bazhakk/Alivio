@@ -2,52 +2,109 @@
 @import "../base/variables";
 
 .product {
-    padding: 120px 0 170px;
+    padding: 120px 0;
 
     @media screen and (max-width: 1024px) {
-       padding: 60px 0 75px;
+        padding-top: 60px 0;
     }
 
     &__container {
         display: flex;
-        position: relative;
-        gap: 40px;
-        margin: 0 auto;
-
+        gap: 86px;
 
         @media screen and (max-width: 1024px) {
-            margin: 0 auto;
             flex-direction: column;
-        }
-    }
-
-    &__col {
-        width: 50%;
-
-        &_left {
-            box-sizing: border-box;
-        }
-
-        &_right {
-
-            @media screen and (max-width: 1024px) {
-                margin: 0 auto;
-            }
+            gap: 43px;
         }
     }
 
     &__img {
         max-width: 640px;
-        border-radius: 18px;
+        background: url(court-cook-TSZo17r3m0s-unsplash-removebg.png);
+        border-radius: 19px;
+    }
+
+    .card {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: -24%;
+        left: -14%;
+        background-color: $white-color;
+        filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+        border-radius: 4px;
 
         @media screen and (max-width: 1024px) {
-            margin: 0 160px auto;
+            top: -10rem;
+            left: -1rem;
+        }
+
+        &__line {
+            width: 130px;
+            margin: 0 auto;
+            border: 1px solid $black-color;
+        }
+
+        &__title {
+            padding-top: 22px;
+            text-align: center;
+            font-family: 'Lato';
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 157%;
+            color: $black-color;
+        }
+
+        &__img {
+            width: 60px;
+            height: 60px;
+            padding-top: 13px;
+            padding-bottom: 10px;
+            transform: translate(7rem);
+        }
+
+        &__name {
+            margin-bottom: 0;
+            text-align: center;
+            font-family: 'Lato';
+            font-weight: 400;
+            font-size: 11.9351px;
+            line-height: 157%;
+            color: $black-color;
+        }
+
+        &__title {
+            margin-top: 0;
+            padding-top: 20px;
+            font-family: 'Georgia';
+            font-weight: 700;
+            font-size: 15.9292px;
+            line-height: 157%;
+            color: $black-color;
+        }
+
+        &__list {
+            list-style: circle;
+            transform: translate(13%);
+        }
+
+        &__item {
+            // text-align: center;
+            font-family: 'Lato';
+            font-weight: 400;
+            font-size: 10.6195px;
+            line-height: 157%;
+            color: $black-color;
         }
     }
 
+    &__right {
+        max-width: 585px;
+    }
+
     &__text {
-        margin-top: 0;
-        margin-bottom: 10px;
+        margin-bottom: 0;
+        padding-bottom: 10px;
         font-family: 'Lato';
         font-weight: 600;
         font-size: 25px;
@@ -56,6 +113,7 @@
     }
 
     &__title {
+        margin: 0;
         font-family: 'Georgia';
         font-weight: 700;
         font-size: 50px;
@@ -63,105 +121,19 @@
         color: $green-color;
 
         @media screen and (max-width: 1024px) {
-            font-size: 30px;
+            font-size: 25px;
+            line-height: 110%;
         }
     }
 
     &__subtitle {
+        margin-top: 0;
+        padding-top: 20px;
         padding-bottom: 40px;
         font-family: 'Lato';
         font-weight: 400;
         font-size: 20px;
-        line-height: 31px;
+        line-height: 145%;
         color: $grey-color;
-
-        @media screen and (max-width: 1024px) {
-            max-width: 290px;
-        }
-    }
-
-    .card {
-        width: 296px;
-        box-sizing: border-box;
-        padding: 25px 55px;
-        // position: absolute;
-        top: 260px;
-        left: 0;
-        border-radius: 4px;
-        background-color: $white-color;
-        filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
-    
-        @media screen and (max-width: 1024px) {
-            margin: 0 auto;
-            left: 130px;
-            top: 160px;
-        }
-
-        &__text {
-            width: fit-content;
-            margin: 0 auto 13px auto;
-            padding: 0 3px 7px 3px;
-            border-bottom: .7px solid $black-color;
-            font-family: 'Lato';
-            font-weight: 600;
-            font-size: 15px;
-            line-height: 157%;
-            text-align: center;
-            color: $black-color;
-
-            @media screen and (max-width: 1024px) {
-                margin: 0 auto6 auto;
-                padding: 0 1px 4px 1px;
-            }
-        }
-
-        &__img {
-            display: block;
-            max-width: 57px;
-            margin: 0 auto 13px auto;
-            border-radius: 50%;
-        }
-
-        &__name {
-            font-family: 'Lato';
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 157%;
-            text-align: center;
-            color: $black-color;
-        }
-
-        &__title {
-            font-family: 'Georgia';
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 157%;
-            color: $black-color;
-        }
-
-        &__list {
-            padding-left: 0;
-            list-style: none;
-
-            &_item {
-                margin-bottom: 15px;
-                font-family: 'Lato';
-                font-weight: 400;
-                font-size: 11px;
-                line-height: 157%;
-            
-                &::before {
-                    display: inline-block;
-                    margin-right: 5px;
-                    margin-bottom: 2px;
-
-                    content: "";
-                    width: 4px;
-                    height: 4px;
-                    border-radius: 50%;
-                    background-color: $black-color;
-                }
-            }
-        }
     }
 }
